@@ -8,9 +8,24 @@
 
 
 # What is mark down?
-- Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
-You can use Markdown most places around GitHub:
-Gists:
-Comments in Issues and Pull Requests
-Files with the .md or .markdown extension
-For more information, see “Writing on GitHub” in the GitHub Help
+- Reflection and Discussion
+Below is a collection of resources of varying types and lengths which describe the topics from lecture.
+
+Go through these resources, and create a page in your reading-notes repo that summarizes the topics you learned as though you were presenting the material to a non-technical friend interested in learning about it.
+
+Note entry ideas:
+
+Blog Article (2-3 paragraphs with code sample)
+Dictionary / Flash Cards
+Notes in outline form
+Fill-in-the-blank worksheet of key concepts
+Read
+Mastering Markdown on GitHub
+Watch
+GitHub Pages
+Bookmark
+GitHub Markdown Syntax
+Submission
+Share what you’ve learned by copying and pasting the full text of your new rendered web page into the ‘Reply’ below. Include the live url of the new page below your pasted text.
+
+You are invited to check out your classmates’ replies and give positive feedback and words of encouragement.
