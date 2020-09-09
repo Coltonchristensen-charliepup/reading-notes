@@ -8,24 +8,10 @@
 
 
 # What is mark down?
-- Reflection and Discussion
-Below is a collection of resources of varying types and lengths which describe the topics from lecture.
+-Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
-Go through these resources, and create a page in your reading-notes repo that summarizes the topics you learned as though you were presenting the material to a non-technical friend interested in learning about it.
+Thus, “Markdown” is two things: (1) a plain text formatting syntax; and (2) a software tool, written in Perl, that converts the plain text formatting to HTML. See the Syntax page for details pertaining to Markdown’s formatting syntax. You can try it out, right now, using the online Dingus.
 
-Note entry ideas:
+The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. While Markdown’s syntax has been influenced by several existing text-to-HTML filters, the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
 
-Blog Article (2-3 paragraphs with code sample)
-Dictionary / Flash Cards
-Notes in outline form
-Fill-in-the-blank worksheet of key concepts
-Read
-Mastering Markdown on GitHub
-Watch
-GitHub Pages
-Bookmark
-GitHub Markdown Syntax
-Submission
-Share what you’ve learned by copying and pasting the full text of your new rendered web page into the ‘Reply’ below. Include the live url of the new page below your pasted text.
-
-You are invited to check out your classmates’ replies and give positive feedback and words of encouragement.
+The best way to get a feel for Markdown’s formatting syntax is simply to look at a Markdown-formatted document. For example, you can view the Markdown source for the article text on this page here: http://daringfireball.net/projects/markdown/index.text
