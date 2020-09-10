@@ -1,4 +1,5 @@
 #tonights notes
+
 *ls=listed item
 *mkdir= how to create a folder or directory
 *cd gempdir= creating text in the file
@@ -12,6 +13,7 @@ Although it really refers to a general technology,
 *You’ll use the “pwd” command all the time! It’s easy to get lost in your file structure,
  so knowing where you are is very useful
 Linux is case-sensitive
+
 
 #What is a text editor?
 
