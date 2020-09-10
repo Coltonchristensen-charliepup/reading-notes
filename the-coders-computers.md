@@ -1,4 +1,5 @@
-#*ls=listed item
+#tonights notes
+*ls=listed item
 *mkdir= how to create a folder or directory
 *cd gempdir= creating text in the file
 
