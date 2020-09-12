@@ -1,23 +1,23 @@
-#tonights notes
+# tonights notes
 
-*ls=listed item
-*mkdir= how to create a folder or directory
-*cd gempdir= creating text in the file
+* ls=listed item
+* mkdir= how to create a folder or directory
+* cd gempdir= creating text in the file
 
-##An IDE interface is an interface for mass storage devices, 
-in which the controller is integrated into the disk or CD-ROM drive. 
+## An IDE interface is an interface for mass storage devices, 
+* in which the controller is integrated into the disk or CD-ROM drive. 
 Although it really refers to a general technology,
  most people use the term to refer the ATA specification,
  which uses this technology.
- *Refer to ATAfor more information.
-*You’ll use the “pwd” command all the time! It’s easy to get lost in your file structure,
+ * Refer to ATAfor more information.
+* You’ll use the “pwd” command all the time! It’s easy to get lost in your file structure,
  so knowing where you are is very useful
 Linux is case-sensitive
 
 
-#What is a text editor?
+# What is a text editor?
 
-*A text editor is a piece of software that you download and install on
+* A text editor is a piece of software that you download and install on
 your computer, or you access online through your web browser, that
 allows you to write and manage text, especially the text that you write
 to build a web site. The text editor has to be one of the most
@@ -49,3 +49,7 @@ type, and makes it more noticeable by colorizing the text. Attributes
 are a different color than elements. And elements are a different color
 than copy. This makes it so much easier when you’re looking for an
 error and you can’t find it. As well as making your text easier to read.
+
+### git
+
+* helped me understand how I need to simplify my lists and not over think the commands!
