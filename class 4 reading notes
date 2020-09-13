@@ -1,1 +1,36 @@
+# chapter notes 
 
+##who are you disigning the site for?
+
+- site you create should be for the specific groupe you're working for
+- where they are located
+- how old they might be
+- what devices they could be using
+- describe the group to the best of your ability
+
+## site maps
+- organize it in a friendly matter for the everyday user.
+- Aim is to create a diagram of the pages that will be used to structure the site, this is know as *Site Maps*.
+ - A site map will usually begin with the homepage and then split split off into sections, with each section might require its own section homepage to link to all of the information within it.
+ 
+ 
+ ## Wireframes
+- they are a simple sketch of the key information that goes to each sites page.
+* never include the color scheme, front, backgrounds or images to the sites inside the wireframe.
+
+# summary 
+- it's important to know your who you're targeting as your audience, insure the information on your site is what they want to find, and when they're most likely to return.
+- site maps allow you to plan the structur of a site
+- wireframes are for organization that goes to each page.
+
+# New vocabulary 
+-HTML/Markup
+-Semantics
+-Wireframe
+-Personas
+-Meta
+-Content
+-Element
+-Tag
+-Attribute
+-Structure vs Presentation
