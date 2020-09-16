@@ -1,1 +1,116 @@
+#Comparison and logical operators
+*II PART TWO: CALCULAT E ANO WRITE OUT THE EX PIRY DETAILS FOR THE OFFER
+var expiryMsg; II Message displayed to users
+var today ; II Today's dat e
+var el Ends ; II The element that shows the message about the offer endi ng
+function offerExp ires(today) {
+II Decl are variables within the function for local scope
+var weekFromToday, day, date, month, year, dayNames, monthNames;
+II Add 7 days time (added i n milliseconds)
+weekFromToday =new Dat e(today .getTime () + 7 * 24 * 60 * 60 * 1000) ;
+II Create arrays to hold the names of days I months
+dayNames = [' Sunday' , 'Mo nday' , 'Tuesday ' , 'Wednesday ', 'Thursday' ,
+-> ' Friday', 'Saturday '] ;
+mont hNames =['January', ' February', 'March', 'Apri l ', 'May ' , 'June ' ,
+-> 'Jul y' , 'August ' , 'September' , 'October' , ' November' , 'December'] ;
+II Collect the parts of the dat e to show on t he page
+day = dayNames [weekFromToday . getOay ()];
+date= weekFromToday .getOate();
+month= mont hNames[wee kFromToday.getMonth()] ;
+year= weekFromToday .getFullYear() ;
+II Create the message
+expi ryMsg = 'Offer expires next ' ;
+expi ryMsg += day + ' <br I>( ' +date+ ' ' +month+ ' ' +year + ')';
+return expiryMsg;
+today= new Date();
+elEnds = document .getEl ementByid( 'off erEnds');
+elEnds .i nnerHTML = offerExpires(today) ;
+II Put today's date in variable
+II Get t he offerEnds el ement
+II Add t he expiry message
+II Finish the immediately i nvoked functi on expression 
+-> This symbol indicates that
+the code is wrapping from the
+previous line and should not
+contain line breaks
 
+*Functions allow you to group a set of related
+statements together that represent a single task.
+*Functions can take parameters (informatiorJ required
+to do their job) and may return a value.
+*An object is a series of variables and functions that
+represent something from the world around you.
+*In an object, variables are known as properties of the
+object; functions are known as methods of the object.
+*Web browsers implement objects that represent both
+the browser window and the document loaded into the
+browser window.
+*JavaScript also has several built-in objects such as
+String, Number, Math, and Date. Their properties and
+methods offer functionality that help you write scripts.
+Arrays and objects can be used to create complex data
+sets (and both can contain the other). 
+
+
+* there are two components to a decision:
+1: and expression is evaluated, which returns a value
+2: a conditional statement says what to do in a given situation
+    ##example
+    condition
+if(score > 50) {
+document.write('you passed!');
+} else {
+document.write('try again...');
+
+* you can evaluate a situation by comparing one value in the script to what you expect it might be. the result will ne a noolean: true or false.
+==
+is equal to
+this operator compares two values(numbers, strings, or booleans)
+to see if they are the same
+
+==!
+is not equal to
+this operator compares two values(numbers, strings, or booleans) to see if they are not the same
+
+
+===
+strict equal to
+this operator compares two values to check that both the data type and values are the same
+
+!== 
+strict not equal to
+compares two values to check both the data type and value are not the same
+
+##for loope
+*A for loop is often used to loop
+through the items in an array. 
+
+example:
+
+var scores= [24. 32, 17]; //Array of scores
+var arraylength scores.l ength; // Items in array
+var roundNumber = O; //Current round
+var msg ''; //Message
+var i ; // Counter
+//Loop through the items in the array
+for (i = O; i < arraylength; i++) {
+//Arrays are zero based (so 0 is round 1)
+//Add 1 to the current round
+roundNumber = (i + l);
+// Write the current round to message
+msg += 'Round ' + roundNumber + ' : ';
+//Get the score from the scores array
+msg += scores[i] + '<br / >' ;
+document .getElementByid( 'answer') .innerHTML msg; 
+
+while loopes
+
+example 
+
+var i = l ;    // set counter to 1
+var msg = ' ' ; // message
+// Store 5 times tabl e in a variable
+while (i < 10) {
+msg += i + ' x 5 = ' + (i * 5) + '<br I>';
+i++
+}
