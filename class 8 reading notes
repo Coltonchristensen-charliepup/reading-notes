@@ -4,9 +4,9 @@ var expiryMsg; II Message displayed to users
 var today ; II Today's dat e
 var el Ends ; II The element that shows the message about the offer endi ng
 function offerExp ires(today) {
-II Decl are variables within the function for local scope
+if Decl are variables within the function for local scope
 var weekFromToday, day, date, month, year, dayNames, monthNames;
-II Add 7 days time (added i n milliseconds)
+If Add 7 days time (added i n milliseconds)
 weekFromToday =new Dat e(today .getTime () + 7 * 24 * 60 * 60 * 1000) ;
 II Create arrays to hold the names of days I months
 dayNames = [' Sunday' , 'Mo nday' , 'Tuesday ' , 'Wednesday ', 'Thursday' ,
