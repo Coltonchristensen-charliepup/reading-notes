@@ -12,7 +12,7 @@ II Create arrays to hold the names of days I months
 dayNames = [' Sunday' , 'Mo nday' , 'Tuesday ' , 'Wednesday ', 'Thursday' ,
 -> ' Friday', 'Saturday '] ;
 mont hNames =['January', ' February', 'March', 'Apri l ', 'May ' , 'June ' ,
--> 'Jul y' , 'August ' , 'September' , 'October' , ' November' , 'December'] ;
+-> 'July' , 'August ' , 'September' , 'October' , ' November' , 'December'] ;
 II Collect the parts of the dat e to show on t he page
 day = dayNames [weekFromToday . getOay ()];
 date= weekFromToday .getOate();
@@ -28,7 +28,7 @@ elEnds .i nnerHTML = offerExpires(today) ;
 II Put today's date in variable
 II Get t he offerEnds el ement
 II Add t he expiry message
-II Finish the immediately i nvoked functi on expression 
+II Finish the immediately invoked functi on expression 
 -> This symbol indicates that
 the code is wrapping from the
 previous line and should not
@@ -62,7 +62,7 @@ document.write('you passed!');
 } else {
 document.write('try again...');
 
-* you can evaluate a situation by comparing one value in the script to what you expect it might be. the result will ne a noolean: true or false.
+* you can evaluate a situation by comparing one value in the script to what you expect it might be. the result will be a boolean: true or false.
 ==
 is equal to
 this operator compares two values(numbers, strings, or booleans)
