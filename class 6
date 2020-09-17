@@ -1,1 +1,10 @@
+javascript
+Is wrote in plain text, just like HTML and CSS, so you do not need any new tools to write a script.
+The HTML script element is used in HTML pages to tell the browser to load the JavaScript file (rather like the link element can be used to load a CSS file).
+also you should keep your javascript code seperate in its own file 
+This example adds a greeting into an HTML page. The greeting changes depending on the time of day.
 
+
+ if (hourNow > 18) {     greeting = 'Good evening!'; } else if (hourNow > 12) {     greeting = 'Good afternoon!'; } else if (hourNow > 0) {     greeting = 'Good morning!'; } else {     greeting = 'Welcome!'; }return document.write('<h3>' + greeting + '</h3>');}
+ 
+ 
